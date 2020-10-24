@@ -2,7 +2,7 @@
 <project version="4">
   <component name="DBNavigator.Project.DataEditorManager">
     <record-view-column-sorting-type value="BY_INDEX" />
-    <value-preview-text-wrapping value="true" />
+    <value-preview-text-wrapping value="false" />
     <value-preview-pinned value="false" />
   </component>
   <component name="DBNavigator.Project.DataExportManager">
@@ -25,16 +25,15 @@
     <show-object-properties value="true" />
     <loaded-nodes>
       <connection connection-id="ed824d35-8600-4cf1-8b5d-384e0eae769b">
-        <schema name="dae1-lunes-ep" object-types="table, constraint, index, procedure, column, dataset trigger, function, view" />
-        <schema name="dae1-lunes-g11" object-types="table, procedure, function, view" />
-        <schema name="dae1-lunes-g4" object-types="table, procedure, function, view" />
-        <schema name="isil_db" object-types="table, procedure, function, view" />
+        <schema name="isil_db" object-types="procedure, table, function, view" />
       </connection>
     </loaded-nodes>
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="ed824d35-8600-4cf1-8b5d-384e0eae769b">
-      <console name="isil_db@mysql" type="STANDARD" schema="isil_db" session="Main" />
+      <console name="isil_db@mysql" type="STANDARD" schema="isil_db" session="Main"><![CDATA[select distinct department, count(department)
+from employees
+group by department]]></console>
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
@@ -42,6 +41,21 @@
   </component>
   <component name="DBNavigator.Project.DatabaseSessionManager">
     <connection id="ed824d35-8600-4cf1-8b5d-384e0eae769b" />
+  </component>
+  <component name="DBNavigator.Project.DatasetFilterManager">
+    <filter-actions connection-id="ed824d35-8600-4cf1-8b5d-384e0eae769b" dataset="isil_db.tbl_student" active-filter-id="EMPTY_FILTER" />
+    <filter-actions connection-id="ed824d35-8600-4cf1-8b5d-384e0eae769b" dataset="isil_db.libros" active-filter-id="EMPTY_FILTER" />
+    <filter-actions connection-id="ed824d35-8600-4cf1-8b5d-384e0eae769b" dataset="isil_db.seller" active-filter-id="EMPTY_FILTER" />
+    <filter-actions connection-id="ed824d35-8600-4cf1-8b5d-384e0eae769b" dataset="isil_db.employees" active-filter-id="52bbd6d7-280d-4770-9328-320c4709cdc5">
+      <filter id="52bbd6d7-280d-4770-9328-320c4709cdc5" name="Filter 1" temporary="false" custom-name="false" type="basic" join-type="AND">
+        <condition column="department" operator="is not null" value="" active="true" />
+      </filter>
+    </filter-actions>
+    <filter-actions connection-id="ed824d35-8600-4cf1-8b5d-384e0eae769b" dataset="isil_db.department" active-filter-id="d53df813-8507-4728-9550-ba24e64d4878">
+      <filter id="d53df813-8507-4728-9550-ba24e64d4878" name="Filter 1" temporary="false" custom-name="false" type="basic" join-type="AND">
+        <condition column="Name" operator="is not null" value="" active="true" />
+      </filter>
+    </filter-actions>
   </component>
   <component name="DBNavigator.Project.EditorStateManager">
     <last-used-providers />

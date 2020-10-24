@@ -1,4 +1,4 @@
-package pe.isil.dao;
+package pe.isil.model.dao;
 
 import pe.isil.model.Student;
 import pe.isil.util.DataBaseUtil;
