@@ -1,0 +1,11 @@
+0:0:0:0:0:0:0:1 - - [31/Oct/2020:22:29:22 -0500] "GET /03-javaee-web-jsp/ HTTP/1.1" 200 948 http-bio-8080-exec-1 578
+0:0:0:0:0:0:0:1 - - [31/Oct/2020:22:29:28 -0500] "POST /03-javaee-web-jsp/insertarLibro.jsp HTTP/1.1" 302 - http-bio-8080-exec-3 1591
+0:0:0:0:0:0:0:1 - - [31/Oct/2020:22:29:28 -0500] "GET /03-javaee-web-jsp/mostrarLibros.jsp HTTP/1.1" 200 1683 http-bio-8080-exec-4 268
+0:0:0:0:0:0:0:1 - - [31/Oct/2020:22:29:31 -0500] "GET /03-javaee-web-jsp/borrarLibro.jsp?isbn=fdghd HTTP/1.1" 302 - http-bio-8080-exec-5 176
+0:0:0:0:0:0:0:1 - - [31/Oct/2020:22:29:31 -0500] "GET /03-javaee-web-jsp/mostrarLibros.jsp HTTP/1.1" 200 1311 http-bio-8080-exec-6 123
+0:0:0:0:0:0:0:1 - - [31/Oct/2020:22:29:49 -0500] "GET /03-javaee-web-jsp/borrarLibro.jsp?isbn=1234 HTTP/1.1" 302 - http-bio-8080-exec-7 117
+0:0:0:0:0:0:0:1 - - [31/Oct/2020:22:29:49 -0500] "GET /03-javaee-web-jsp/mostrarLibros.jsp HTTP/1.1" 200 1130 http-bio-8080-exec-8 141
+0:0:0:0:0:0:0:1 - - [31/Oct/2020:22:29:57 -0500] "GET /03-javaee-web-jsp/formularioLibro.jsp HTTP/1.1" 200 948 http-bio-8080-exec-9 4
+0:0:0:0:0:0:0:1 - - [31/Oct/2020:22:30:09 -0500] "POST /03-javaee-web-jsp/insertarLibro.jsp HTTP/1.1" 302 - http-bio-8080-exec-10 124
+0:0:0:0:0:0:0:1 - - [31/Oct/2020:22:30:09 -0500] "GET /03-javaee-web-jsp/mostrarLibros.jsp HTTP/1.1" 200 1316 http-bio-8080-exec-10 122
+0:0:0:0:0:0:0:1 - - [31/Oct/2020:22:48:05 -0500] "GET /03-javaee-web-jsp/borrarLibro.jsp?isbn=fdghd HTTP/1.1" 500 2966 http-bio-8080-exec-4 19258

@@ -23,11 +23,7 @@
     <autoscroll-to-editor value="false" />
     <autoscroll-from-editor value="true" />
     <show-object-properties value="true" />
-    <loaded-nodes>
-      <connection connection-id="ed824d35-8600-4cf1-8b5d-384e0eae769b">
-        <schema name="isil_db" object-types="procedure, table, function, view" />
-      </connection>
-    </loaded-nodes>
+    <loaded-nodes />
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="ed824d35-8600-4cf1-8b5d-384e0eae769b">

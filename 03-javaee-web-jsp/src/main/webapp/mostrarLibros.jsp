@@ -18,10 +18,12 @@
         <%= book.getIsbn()%>
         <%= book.getTitulo()%>
         <%= book.getCategoria()%>
+        <a href="FormularioEditarLibro.jsp?isbn=<%= book.getIsbn() %>">Editar</a>
+        <a href="borrarLibro.jsp?isbn=<%= book.getIsbn() %>">Eliminar</a>
         <br/>
 
-<%
-    }
+<%}
+
 
 
 %>

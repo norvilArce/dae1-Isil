@@ -30,7 +30,7 @@
             <input type="text" name="categoria" id="categoria">
         </p>
         <p>
-        <input type="button" value="Insertar" onclick="validacion()">
+            <input type="button" value="Insertar" onclick="validacion()">
         </p>
 
     </fieldset>
