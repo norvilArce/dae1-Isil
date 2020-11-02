@@ -1,4 +1,0 @@
-0:0:0:0:0:0:0:1 - - [01/Nov/2020:20:17:48 -0500] "GET /03-javaee-web-jsp/ HTTP/1.1" 200 948 http-bio-8080-exec-1 166
-0:0:0:0:0:0:0:1 - - [01/Nov/2020:20:17:48 -0500] "GET /03-javaee-web-jsp/css/style.css HTTP/1.1" 200 97 http-bio-8080-exec-3 9
-0:0:0:0:0:0:0:1 - - [01/Nov/2020:20:17:48 -0500] "GET /03-javaee-web-jsp/js/main.js HTTP/1.1" 200 263 http-bio-8080-exec-2 10
-0:0:0:0:0:0:0:1 - - [01/Nov/2020:20:17:48 -0500] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8080-exec-5 0

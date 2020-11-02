@@ -1,6 +1,6 @@
-<%@ page import="pe.isil.model.dao.DaoFactory" %>
-<%@ page import="pe.isil.model.dao.BookDao" %>
-<%@ page import="pe.isil.model.entities.Book" %><%--
+<%@ page import="pe.DaoFactory" %>
+<%@ page import="pe.BookDao" %>
+<%@ page import="pe.Book" %><%--
   Created by IntelliJ IDEA.
   User: Norvil
   Date: 24/10/2020
@@ -41,7 +41,7 @@
             <input type="text" name="categoria" id="categoria" value="<%=book.getCategoria()%>">
         </p>
         <p>
-            <input type="button" value="Actualizar">
+            <input type="submit" value="Modificar">
         </p>
 
     </fieldset>

@@ -3,6 +3,7 @@
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/03-javaee-web-jsp" />
+    <file type="web" url="file://$PROJECT_DIR$/04-javaee-web-jsp-advance" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">

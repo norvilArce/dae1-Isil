@@ -1,6 +1,0 @@
-pe\isil\model\dao\impl\BookDaoJdbc.class
-pe\isil\db\DB.class
-pe\isil\model\entities\Book.class
-pe\isil\db\DbException.class
-pe\isil\model\dao\BookDao.class
-pe\isil\model\dao\DaoFactory.class

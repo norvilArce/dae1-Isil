@@ -1,0 +1,17 @@
+0:0:0:0:0:0:0:1 - - [01/Nov/2020:23:41:20 -0500] "GET /04-javaee-web-jsp-advance HTTP/1.1" 302 - http-bio-8080-exec-1 0
+0:0:0:0:0:0:0:1 - - [01/Nov/2020:23:41:23 -0500] "GET /04-javaee-web-jsp-advance/ HTTP/1.1" 200 1834 http-bio-8080-exec-3 2530
+0:0:0:0:0:0:0:1 - - [01/Nov/2020:23:41:28 -0500] "GET /04-javaee-web-jsp-advance/BookController?action=edit&isbn=123333 HTTP/1.1" 500 4385 http-bio-8080-exec-4 250
+0:0:0:0:0:0:0:1 - - [01/Nov/2020:23:41:30 -0500] "GET /04-javaee-web-jsp-advance/BookController?action=delete&isbn=123333 HTTP/1.1" 200 1551 http-bio-8080-exec-2 238
+0:0:0:0:0:0:0:1 - - [01/Nov/2020:23:41:34 -0500] "GET /04-javaee-web-jsp-advance/BookController?action=edit&isbn=si HTTP/1.1" 500 4385 http-bio-8080-exec-6 129
+0:0:0:0:0:0:0:1 - - [01/Nov/2020:23:45:38 -0500] "GET /04-javaee-web-jsp-advance/ HTTP/1.1" 200 1551 http-bio-8080-exec-1 1815
+0:0:0:0:0:0:0:1 - - [01/Nov/2020:23:45:41 -0500] "GET /04-javaee-web-jsp-advance/BookController?action=edit&isbn=si HTTP/1.1" 200 410 http-bio-8080-exec-3 785
+0:0:0:0:0:0:0:1 - - [01/Nov/2020:23:45:51 -0500] "POST /04-javaee-web-jsp-advance/UserController HTTP/1.1" 404 1031 http-bio-8080-exec-4 3
+0:0:0:0:0:0:0:1 - - [01/Nov/2020:23:47:29 -0500] "GET /04-javaee-web-jsp-advance/ HTTP/1.1" 200 1551 http-bio-8080-exec-1 1934
+0:0:0:0:0:0:0:1 - - [01/Nov/2020:23:47:33 -0500] "GET /04-javaee-web-jsp-advance/BookController?action=edit&isbn=si HTTP/1.1" 200 410 http-bio-8080-exec-3 1003
+0:0:0:0:0:0:0:1 - - [01/Nov/2020:23:47:37 -0500] "POST /04-javaee-web-jsp-advance/BookController HTTP/1.1" 200 1820 http-bio-8080-exec-4 885
+0:0:0:0:0:0:0:1 - - [01/Nov/2020:23:48:40 -0500] "GET /04-javaee-web-jsp-advance HTTP/1.1" 302 - http-bio-8080-exec-1 0
+0:0:0:0:0:0:0:1 - - [01/Nov/2020:23:48:42 -0500] "GET /04-javaee-web-jsp-advance/ HTTP/1.1" 200 1820 http-bio-8080-exec-3 1590
+0:0:0:0:0:0:0:1 - - [01/Nov/2020:23:48:49 -0500] "GET /04-javaee-web-jsp-advance/BookController?action=delete&isbn=si HTTP/1.1" 200 1282 http-bio-8080-exec-4 259
+0:0:0:0:0:0:0:1 - - [01/Nov/2020:23:48:58 -0500] "GET /04-javaee-web-jsp-advance/BookController?action=edit&isbn=ISB002 HTTP/1.1" 200 425 http-bio-8080-exec-5 126
+0:0:0:0:0:0:0:1 - - [01/Nov/2020:23:49:02 -0500] "POST /04-javaee-web-jsp-advance/BookController HTTP/1.1" 200 1284 http-bio-8080-exec-6 425
+0:0:0:0:0:0:0:1 - - [01/Nov/2020:23:51:13 -0500] "GET /04-javaee-web-jsp-advance/ HTTP/1.1" 200 1329 http-bio-8080-exec-1 2535
