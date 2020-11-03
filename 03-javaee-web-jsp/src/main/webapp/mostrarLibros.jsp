@@ -1,7 +1,7 @@
-<%@ page import="pe.BookDao" %>
-<%@ page import="pe.DaoFactory" %>
-<%@ page import="pe.Book" %>
 <%@ page import="java.util.List" %>
+<%@ page import="pe.isil.model.dao.BookDao" %>
+<%@ page import="pe.isil.model.dao.DaoFactory" %>
+<%@ page import="pe.isil.model.entities.Book" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>

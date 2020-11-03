@@ -7,6 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="05-javaee-jpa" />
         <module name="03-javaee-web-jsp" />
         <module name="01-javaee-jdbc" />
         <module name="02-javaee-jdbc-advance" />
