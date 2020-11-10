@@ -1,0 +1,3 @@
+0:0:0:0:0:0:0:1 - - [03/Nov/2020:00:34:09 -0500] "GET /04-javaee-web-jsp-advance HTTP/1.1" 302 - http-bio-8080-exec-1 0
+0:0:0:0:0:0:0:1 - - [03/Nov/2020:00:34:11 -0500] "GET /04-javaee-web-jsp-advance/ HTTP/1.1" 200 1334 http-bio-8080-exec-3 2348
+0:0:0:0:0:0:0:1 - - [03/Nov/2020:00:34:14 -0500] "GET /04-javaee-web-jsp-advance/BookController?action=add HTTP/1.1" 200 403 http-bio-8080-exec-4 85

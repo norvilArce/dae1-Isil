@@ -1,6 +1,7 @@
 <%@ page import="pe.BookDao" %>
 <%@ page import="pe.DaoFactory" %>
 <%@ page import="pe.Book" %>
+<%@ page import="pe.isil.model.dao.BookDao" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" pageEncoding="UTF-8" %>
 
 <%
