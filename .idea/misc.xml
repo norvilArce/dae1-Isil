@@ -4,12 +4,19 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/03-javaee-web-jsp" />
     <file type="web" url="file://$PROJECT_DIR$/04-javaee-web-jsp-advance" />
+    <file type="web" url="file://$PROJECT_DIR$/06-javaee-jsf" />
+    <file type="web" url="file://$PROJECT_DIR$/06-javaee-jsp-jpa" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/06-javaee-jsp-jpa/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+<h:head>
+    <title>Primer Formulario</title>
+</h:head>
+<h:body>
+
+    <h:form>
+        <h:outputLabel value="Name:"/><br/>
+        <h:inputText id="text" value="#{form1View.text}"/><br/>
+
+        <h:outputLabel value="Password"/><br/>
+        <h:inputSecret id="password" value="#{form1View.password}"/><br/>
+
+        <h:outputLabel value="Message"/><br/>
+        <h:inputTextarea id="message" value="#{form1View.message}"/><br/>
+        <h:inputHidden id="hidden" value="#{form1View.hidden}"/><br/>
+
+        <h:outputLabel value="Option"/><br/>
+        <h:selectBooleanCheckbox id="checkbox" value="#{form1View.checked}"/><br/>
+
+        <h:selectOneMenu id="oneMenu" value="#{form1View.oneMenu}">
+            <f:selectItems value="#{form1View.availableItems}"/>
+        </h:selectOneMenu><br/>
+
+        <h:selectOneRadio id="oneRadio" value="#{form1View.oneRadio}">
+            <f:selectItems value="#{form1View.availableItems}"/>
+        </h:selectOneRadio><br/>
+
+        <h:selectManyListbox id="manyListBox" value="#{form1View.manyListBox}">
+            <f:selectItems value="#{form1View.availableItems}"/>
+        </h:selectManyListbox><br/>
+
+        <h:selectManyCheckbox id="manyCheckBox" value="#{form1View.manyCheckBox}">
+            <f:selectItems value="#{form1View.availableItems}"/>
+        </h:selectManyCheckbox><br/>
+
+        <h:commandButton value="Submit" action="#{form1View.submit}"/>
+    </h:form>
+
+</h:body>
+
+</html>

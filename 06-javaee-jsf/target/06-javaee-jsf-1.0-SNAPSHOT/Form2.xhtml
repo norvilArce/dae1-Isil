@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+<h:head>
+    <title>Form 02</title>
+</h:head>
+<h:body>
+    <h:outputStylesheet library="css" name="styles.css"/>
+
+    <h:form id="form">
+        <h:panelGrid columns="3">
+
+            <h:outputLabel for="documentType" value="Document: "/>
+            <h:selectOneMenu id="documentType" value="#{form2View.documentType}">
+                <f:selectItems value="#{form2View.documentTypeList}"/>
+            </h:selectOneMenu>
+            <h:message for="documentType"/>
+
+            <h:outputLabel for="documentNumber" value="Document Number: "/>
+            <h:inputText id="documentNumber" label="DocumentNumber" value="#{form2View.documentNumber}" required="true">
+                <f:validateLength minimum="0" maximum="9"/>
+            </h:inputText>
+            <h:message for="firstName"/>
+
+            <h:outputLabel for="firstName" value="FirstName: "/>
+            <h:inputText id="firstName" label="FirstName" value="#{form2View.firstName}" required="true">
+                <f:validateLength minimum="5" maximum="30"/>
+            </h:inputText>
+            <h:message for="firstName"/>
+
+            <h:outputLabel for="lastName" value="LastName: "/>
+            <h:inputText id="lastName" label="LastName" value="#{form2View.lastName}" required="true">
+                <f:validateLength minimum="5" maximum="30"/>
+            </h:inputText>
+            <h:message for="lastName"/>
+
+            <h:outputLabel for="email" value="Email: "/>
+            <h:inputText id="email" label="Email" value="#{form2View.email}" required="true">
+                <f:validateLength minimum="5" maximum="30"/>
+            </h:inputText>
+            <h:message for="email"/>
+
+            <h:outputLabel for="gender" value="Gender: "/>
+            <h:selectOneRadio id="gender" value="#{form2View.gender}">
+                <f:selectItems value="#{form2View.genderList}"/>
+            </h:selectOneRadio>
+            <h:message for="gender"/>
+
+            <h:commandButton value="Submit" action="#{form2View.submit}"/>
+        </h:panelGrid>
+
+    </h:form>
+
+</h:body>
+</html>

@@ -10,9 +10,13 @@
         <module name="05-javaee-jpa" />
         <module name="03-javaee-web-jsp" />
         <module name="01-javaee-jdbc" />
+        <module name="06-javaee-jsf" />
         <module name="02-javaee-jdbc-advance" />
         <module name="04-javaee-web-jsp-advance" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="06-javaee-jsp-jpa" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
